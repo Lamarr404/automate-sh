@@ -7,7 +7,7 @@
 
 ### Output
 ```bash
-ls /home/user/Documents/Script/Bash/nouveau_script.sh
+ls /home/$USER/Script/Bash/nouveau_script.sh
 ```
 
 ## Code source
@@ -16,7 +16,7 @@ ls /home/user/Documents/Script/Bash/nouveau_script.sh
 #!/bin/bash
 
 NAME=$1
-FPATH="/home/user/Documents/Script/Bash/$NAME.sh"
+FPATH="/home/$USER/Script/Bash/$NAME.sh"
 
 touch $FPATH
 echo '#!/bin/bash' > $FPATH
